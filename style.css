@@ -32,7 +32,7 @@
  margin: 0 auto 0;
 }
 
-.tasks__label {
+.tasks__label, .task {
  width: 56%;
  display: inline-block;
  flex-grow: 1
@@ -164,6 +164,6 @@ button{
  width: 224px;
 }
 
-.tasks__list .tasks__item.tasks__item--edit-mode .tasks__label {
- display: none;
+ul li.tasks__item--edit-mode label {
+ display:none;
 }
